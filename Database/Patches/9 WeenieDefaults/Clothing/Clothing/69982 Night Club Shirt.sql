@@ -1,7 +1,7 @@
 DELETE FROM `weenie` WHERE `class_Id` = 69982;
 
 INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
-VALUES (69982, 'ace69982-nightclubshirt', 2, '2025-11-22 19:44:27') /* Clothing */;
+VALUES (69982, 'ace69982-nightclubshirt', 2, '2025-12-23 18:45:51') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (69982,   1,          4) /* ItemType - Clothing */
@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (69982,   1, 'Night Club Shirt') /* Name */
      , (69982,   7, 'I partied in the Night Club during Asheron''s Call''s (emulated) 26th Anniversary event.') /* Inscription */
      , (69982,   8, '-') /* ScribeName */
-     , (69982,  16, 'A limited-edition shirt made available in the Night Club dungeon for the (emulated) 25th anniversary of Asheron''s Call.') /* LongDesc */;
+     , (69982,  16, 'A limited-edition shirt made available in the Night Club dungeon for the (emulated) 26th anniversary of Asheron''s Call.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (69982,   1, 0x020001C3) /* Setup */
